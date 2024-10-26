@@ -1,4 +1,4 @@
-import { Icons } from "@/components";
+import Icons from "@/components/global/icons";
 
 export const perks = [
   {
