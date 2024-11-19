@@ -1,4 +1,4 @@
-import { Icons } from "@/components";
+import Icons from "@/components/global/icons";
 
 export const perks = [
   {
@@ -158,5 +158,24 @@ export const reviews = [
     name: "Frank",
     username: "@frank",
     body: "This has streamlined our communication. No more email chaos!",
+  },
+];
+
+export const footerLinks = [
+  {
+    title: "Product",
+    links: ["Features", "Pricing", "Testimonials", "Integration"],
+  },
+  {
+    title: "Integrations",
+    links: ["Facebook", "Instagram", "Twitter", "LinkedIn"],
+  },
+  {
+    title: "Resources",
+    links: ["Blog", "Case Studies", "Support"],
+  },
+  {
+    title: "Company",
+    links: ["About Us", "Privacy Policy", "Terms & Conditions"],
   },
 ];
