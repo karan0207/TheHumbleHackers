@@ -13,7 +13,7 @@ const HowItWorks = () => {
           <SectionBadge title="How it works" />
 
           <h2 className="text-3xl lg:text-4xl font-semibold mt-6">
-            The modern service platform to meet your customer's needs
+            The modern service platform to meet your customer&apos;s needs
           </h2>
           <p className="text-muted-foreground mt-6">
             Keep your customers at the center of your business today with 3

@@ -18,8 +18,8 @@ const NewsLetter = () => {
               Settle complaints faster than ever
             </h2>
             <p className="text-muted-foreground mt-6">
-              Engage your customers with Nexa's AI Powered, fully automated team
-              workflow.
+              Engage your customers with Nexa&apos;s AI Powered, fully automated
+              team workflow.
             </p>
 
             <Button variant={"white"} className="mt-6" asChild>
