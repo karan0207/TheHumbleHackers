@@ -204,23 +204,33 @@ export const reviews = [
 ];
 
 export const footerLinks = [
-  // {
-  //   title: "Product",
-  //   links: ["Features", "Pricing", "Testimonials", "Integration"],
-  // },
   {
     title: "Integrations",
-    links: ["Facebook", "Instagram", "Twitter", "LinkedIn"],
+    links: [
+      { name: "Facebook", href: "#" },
+      { name: "Instagram", href: "#" },
+      { name: "Twitter", href: "#" },
+      { name: "LinkedIn", href: "#" },
+    ],
   },
   {
     title: "Resources",
-    links: ["Blog", "Case Studies", "Support"],
+    links: [
+      { name: "Blogs", href: "/blog" },
+      { name: "Clients", href: "/Clients" },
+      { name: "Contact", href: "/ContactUs" },
+    ],
   },
   {
     title: "Company",
-    links: ["About Us", "Privacy Policy", "Terms & Conditions"],
+    links: [
+      { name: "About Us", href: "/about" },
+      { name: "Privacy Policy", href: "/privacy-policy" },
+      { name: "Terms & Conditions", href: "/terms-and-conditions" },
+    ],
   },
 ];
+
 
 export const navLinks = [
   {
