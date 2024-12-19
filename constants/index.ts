@@ -1,21 +1,40 @@
 import Icons from "@/components/global/icons";
+// import { url } from "inspector";
 
 export const perks = [
+  // {
+  //   icon: Icons.auth,
+  //   title: "Create an Account",
+  //   info: "Sign up and start streamlining your customer communication today.",
+  // },
   {
     icon: Icons.auth,
-    title: "Create an Account",
-    info: "Sign up and start streamlining your customer communication today.",
+    title: "AI Girlfriends",
+    info: "Exploring how AI is reshaping relationships and companionship.",
+    url: "https://cdn.prod.website-files.com/624b08d53d7ac60ccfc11d8d/663ddd93c8f8364d0a634172_Frame%2013848%20(2)-min.webp",
   },
   {
     icon: Icons.customize,
-    title: "Connect Your Inbox",
-    info: "Easily integrate your email accounts for a unified team inbox experience.",
+    title: "Deepfake Tools & FaceSwap Apps",
+    info: " Unlocking creativity with jaw-dropping possibilities.",
+    url: "https://cdn.prod.website-files.com/624b08d53d7ac60ccfc11d8d/663ddd930889a8fd3a0f330d_Frame%2013848-min.webp",
   },
   {
     icon: Icons.launch,
-    title: "Start Collaborating",
-    info: "Manage customer queries, assign tasks, and work together seamlessly.",
+    title: "VR Experiences",
+    info: "Bringing immersive, jaw-dropping entertainment to your headset..",
+    url: "https://cdn.prod.website-files.com/624b08d53d7ac60ccfc11d8d/663ddd93b715de62b39a154d_Frame%2013848%20(1)-min.webp",
   },
+  // {
+  //   icon: Icons.customize,
+  //   title: "Connect Your Inbox",
+  //   info: "Easily integrate your email accounts for a unified team inbox experience.",
+  // },
+  // {
+  //   icon: Icons.launch,
+  //   title: "Start Collaborating",
+  //   info: "Manage customer queries, assign tasks, and work together seamlessly.",
+  // },
 ];
 
 export const features = [
@@ -128,6 +147,29 @@ export const bentoCards = [
   },
 ];
 
+export const reviewsnew=[
+  {
+   name:"bankless",
+   url:"/assets/bankless-logo.svg"
+  },
+  {
+   name:"bitcoin",
+   url:"/assets/bitcoin-logo.webp"
+  },
+  {
+   name:"bitcom",
+   url:"/assets/bitcom-logo.webp"
+  },
+  {
+    name:"coindesk",
+    url:"/assets/coindesk-logo.svg"
+  },
+  {
+    name:"cointelegraph",
+    url:"/assets/cointelegraph-logo.webp"
+  }
+]
+
 export const reviews = [
   {
     name: "Alice",
@@ -162,10 +204,10 @@ export const reviews = [
 ];
 
 export const footerLinks = [
-  {
-    title: "Product",
-    links: ["Features", "Pricing", "Testimonials", "Integration"],
-  },
+  // {
+  //   title: "Product",
+  //   links: ["Features", "Pricing", "Testimonials", "Integration"],
+  // },
   {
     title: "Integrations",
     links: ["Facebook", "Instagram", "Twitter", "LinkedIn"],
@@ -177,5 +219,43 @@ export const footerLinks = [
   {
     title: "Company",
     links: ["About Us", "Privacy Policy", "Terms & Conditions"],
+  },
+];
+
+export const navLinks = [
+  {
+    name: "About Us",
+    href: "/about",
+  },
+  {
+    name: "Blog",
+    href: "/blog",
+  },
+  {
+    name: "Contact",
+    href: "/ContactUs",
+  },
+  {
+    name: "Clients",
+    href: "/Clients",
+  },
+  // {
+  //   name: "Support",
+  //   href: "/support",
+  // },
+];
+
+export const Sponsors = [
+  {
+    url: "",
+    name: "",
+  },
+  {
+    url: "",
+    name: "",
+  },
+  {
+    url: "",
+    name: "",
   },
 ];

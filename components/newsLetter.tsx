@@ -14,24 +14,24 @@ const NewsLetter = () => {
         <LampContainer>
           <div className="flex flex-col items-center justify-center relative w-full text-center">
             <h2 className="text-3xl lg:text-4xl 2xl:text-4xl mt-6 font-semibold">
-              Interact with your customers. <br />
-              Settle complaints faster than ever
+              Enhance your Presence. <br />
+              TheHumbleHackers got your Back
             </h2>
             <p className="text-muted-foreground mt-6">
-              Engage your customers with Nexa&apos;s AI Powered, fully automated
-              team workflow.
+              Build Solutions&apos;s AI Powered, VR Technology.
             </p>
 
             <Button variant={"white"} className="mt-6" asChild>
               <Link href={"#"}>
-                Get started for free
+                Get started 
                 <ArrowRight className="w-4 h-4 ml-2" />
               </Link>
             </Button>
           </div>
         </LampContainer>
       </Container>
-      <Container className="relative z-[9999999]">
+      {/* <Container className="relative z-[9999999]"> */}
+      <div className="relative z-[9999999] w-full h-full">
         <div className="flex items-center justify-center w-full -mt-40">
           <div className="flex flex-col md:flex-row items-start md:items-center justify-start md:justify-between w-full px-4 md:px-8 rounded-lg lg:rounded-2xl border border-border/80 py-4 md:py-8">
             <div className="flex flex-col items-start gap-4 w-full">
@@ -39,7 +39,7 @@ const NewsLetter = () => {
                 Join our Newsletter
               </h2>
               <p className="text-muted-foreground text-base">
-                Be up to date on everything Nexa
+                Be up to date on everything about TheHumbleHackers
               </p>
             </div>
 
@@ -71,7 +71,8 @@ const NewsLetter = () => {
             </div>
           </div>
         </div>
-      </Container>
+        </div>
+      {/* </Container> */}
     </Wrapper>
   );
 };

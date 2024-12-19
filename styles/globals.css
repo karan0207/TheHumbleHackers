@@ -10,7 +10,7 @@
 
     /* CSS: .bg-gradient { background: var(--gradient) } */
     --gradient: linear-gradient(to top left, #007adf, #00ecbc);
-
+    /* --gradient: linear-gradient(to top left, #2003e, #000000); */
     --background: 220 65% 3.52%;
     --foreground: 220 10% 97.2%;
 
@@ -113,6 +113,66 @@
 
 .gradient {
   background: conic-gradient(from 230.29deg at 51.63% 52.16%, rgb(36, 0, 255) 0deg, rgb(0, 135, 255) 67.5deg, rgb(108, 39, 157) 198.75deg, rgb(24, 38, 163) 251.25deg, rgb(54, 103, 196) 301.88deg, rgb(105, 30, 255) 360deg);
+}
+
+/* .bg-image {
+  /* position: relative; Ensure positioning for pseudo-element */
+  /* background-image: url("https://img.freepik.com/free-vector/wireframe-robot-ai-artificial-intelligence-form-cyborg-bot-brain-robotic-hand-digital-brain_127544-853.jpg?t=st=1734544671~exp=1734548271~hmac=93aac417ea693f0c9f353489dc06b7b0cb21ad99a2021d8ce03eefabbf4af6e2&w=996");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1; 
+} */ 
+
+.bg-imaged {
+  /* position: relative; Ensure positioning for pseudo-element */
+  background: linear-gradient(135deg, #3c0066, #000000); /* Purple and black gradient */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1; /* Place it behind content */
+}
+
+.bg-image {
+  /* position: relative; Ensure positioning for pseudo-element */
+  background: linear-gradient(to bottom, #3c0066, #000000); /* Purple to black gradient */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1; /* Place it behind content */
+}
+
+
+
+/* Add a dark overlay using a pseudo-element */
+/* .bg-image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+  /* z-index: 1; /* Ensure overlay is above background image */
+  /* filter: blur(1px)
+    brightness(0.5)
+} */ 
+
+/* Optional: Apply blur to the image */
+/* .bg-image {
+ ; /* Apply blur if desired */
+  /* -webkit-filter: blur(5px); /* For WebKit browsers */
+/* } */
+
+.gradient {
+  background: conic-gradient(
+    from 230deg at 50% 50%, 
+    rgb(45, 0, 85) 0deg, 
+    rgb(30, 0, 60) 90deg, 
+    rgb(15, 0, 30) 180deg, 
+    rgb(0, 0, 0) 270deg, 
+    rgb(30, 0, 60) 360deg
+  );
 }
 
 .lamp {

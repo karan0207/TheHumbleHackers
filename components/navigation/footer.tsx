@@ -1,8 +1,9 @@
 import React from "react";
 import { footerLinks } from "@/constants";
-import Icons from "../global/icons";
-import { Heart } from "lucide-react";
+// import Icons from "../global/icons";
+// import { Heart } from "lucide-react";
 import Link from "next/link";
+import { ArrowRightSquare } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -13,25 +14,23 @@ const Footer = () => {
       <div className="grid gap-8 xl:grid-cols-3 xl:gap-8 w-full">
         <div className="flex flex-col items-start justify-start md:max-w-[200px]">
           <div className="flex items-start">
-            <Icons.logo className="h-7 w-7" />
+            <ArrowRightSquare className="h-7 w-7" />
           </div>
           <p className="text-muted-foreground mt-4 text-sm text-start">
-            Engage your customers today with Nexa AI.
+            Reach out to TheHumbleHackers Today.
           </p>
-          <span className="mt-4 text-neutral-200 text-sm flex items-center">
+          {/* <span className="mt-4 text-neutral-200 text-sm flex items-center">
             Made with{" "}
             <Heart className="w-3.5 h-3.5 mx-1 fill-primary text-primary" />
             by Oliver
-          </span>
+          </span> */}
         </div>
 
-        <div className="grid grid-cols-4 gap-8 mt-16 xl:col-span-2 xl:mt-0">
+        <div className="grid grid-cols-3 gap-8 mt-16 xl:col-span-2 xl:mt-0">
           {footerLinks.map((section, index) => (
             <div
               key={index}
-              className={`${
-                index % 2 === 1 ? "mt-10 md:mt-0" : ""
-              } md:grid md:grid-cols-2 md:gap-8`}
+              className={` md:grid md:grid-cols-2 md:gap-8`}
             >
               <div className="">
                 <h3 className="text-base font-medium text-white">
@@ -58,7 +57,7 @@ const Footer = () => {
 
       <div className="mt-8 border-t border-border/40 pt-4 md:pt-8 md:flex md:items-center md:justify-between w-full">
         <p className="text-sm text-muted-foreground mt-8 md:mt-0">
-          &copy; {new Date().getFullYear()} Nexa Technologies Inc. All rights
+          &copy; {new Date().getFullYear()} TheHumbleHackers Inc. All rights
           reserved
         </p>
       </div>
